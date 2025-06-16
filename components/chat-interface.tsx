@@ -76,7 +76,7 @@ const ChatInterface = () => {
           setMessages((prev) => [
             ...prev,
             { type: 'assistant', text: `Sorry, I couldn't find questions for "${techStack}". Try another topic!` }
-          ]);
+          ]);//
         }
       } catch {
         setMessages((prev) => [
